@@ -1,0 +1,22 @@
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle lein
+antigen bundle pip 
+antigen bundle history
+antigen bundle github
+antigen bundle npm
+antigen bundle brew
+antigen bundle colorize
+antigen bundle git-extras
+antigen bundle command-not-found
+antigen bundle common-aliases
+antigen bundle yarn
+
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen theme spaceship-prompt/spaceship-prompt
+
+antigen apply
